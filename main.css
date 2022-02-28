@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+   color: #424242;
+    line-height: 1.6em;
+  }
+  
+  .left-nav {
+   position: fixed;
+   top: 0;
+   left: 0;
+   height: 100%;
+  }
+  
+  div.left-nav {
+    overflow-x: hidden;
+    overflow-x: auto;
+  }
+  
+  main {
+    margin-left: 250px;
+    padding: 2em;
+    padding-left: 6em;
+    margin-right: 1em;
+  }
+  
+  .section-header {
+    color: black;
+    font-size: 1.5rem;
+  }
+  
+  section > p {
+    color: #424242;
+    font-size: .96rem;
+    padding-left: 1em;
+  }
+  
+  
+   section > ul {
+    color: #424242;
+    padding-left: 4em;
+    line-height: 2em;
+    font-size: .96rem;
+  }
+  
+  .list-circle {
+    margin-left: 4em;
+    margin-right: .5em;
+    list-style-type: circle;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #616161;
+  }
+  
+  ul{
+    padding: 0;
+  }
+  
+  .nav-header {
+    font-weight: 500;
+    font-size: 1.7em;
+    padding-left: 1.2em;
+    padding-top: .6em;
+    color: black;
+  }
+  
+  .navbar-links {
+    list-style: none; 
+    line-height: 1.8em;
+    border-top: 1px solid #BDBDBD;
+    padding: .5em;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
+  
+  code{
+    display: block;
+    background-color: #EEEEEE;
+    max-height: 100px;
+    padding: 1em 1em 1em;
+    margin: 1em;
+    box-decoration-break: clone;
+    word-break: break-word;
+    word-wrap: break-word;
+    border-radius: .2em;
+  }
+  
+  code.long-box {
+    max-height: 200px;
+  }
+  
+  .reference-link {
+    color: blue;
+  }
+  
+  
+  @media only screen and (max-width: 550px) {
+    
+    body{
+       line-height: 1.4em;
+    }
+  
+    .left-nav {
+      margin: 0;
+      top: 0;
+      width: 485px;
+      height: 275px;
+      border: 1px solid black;
+      background-color: white;
+      
+    }
+    
+    main {
+      margin-top: 265px;
+      margin-left: 0;
+      padding-left: 1.5em;
+      padding-right: .5em;
+      width: 450px;
+    }
+    
+    .nav-header {
+      padding-left: 4.5em; 
+    }
+    
+    code {
+      font-size: .8rem;
+      line-height: 1.3;
+    }
+    
+  }
